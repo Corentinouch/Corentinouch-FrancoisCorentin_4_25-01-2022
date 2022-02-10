@@ -37,7 +37,7 @@ a:hover {
 }
 .name{
     font-size:15px;
-    color:rgb(150, 150, 150);
+    color:#575757;
 }
 .quote{
     border-left:5px rgb(220, 220, 220) solid
@@ -52,7 +52,10 @@ a:hover {
     margin:10px;
 }
 .blur{
-    backdrop-filter: blur(3px) brightness(0.5);
+    backdrop-filter: blur(3px) brightness(0.4);
+}
+.mail{
+    text-decoration: underline;
 }
 #bloc-1-hero, #bloc-3-what-i-do,#bloc-5-cta{
     padding:0px;
